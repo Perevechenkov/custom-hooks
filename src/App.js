@@ -1,3 +1,11 @@
+import BackwardCounter from './components/BackwardCounter';
+import ForwardCounter from './components/ForwardCounter';
+
 export default function App() {
-  return <></>;
+  return (
+    <>
+      <ForwardCounter />
+      <BackwardCounter />
+    </>
+  );
 }
